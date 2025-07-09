@@ -90,11 +90,11 @@ p{
 }
 /* header section start */
 header{
+    padding-top: 50px;
     margin-bottom: 80px;
     background-image: url(../images/developer.png), url(../images/header_bg.png);
-
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: left, bottom right;
     background-color: #FFF8F3;  
 }
 nav{
@@ -149,7 +149,9 @@ nav ul li a{
 .banner-text p{
     margin: 15px 0;
 }
-
+.banner-img{
+    height: 677px;
+}
 /* header section end */
 /* about section start */
 .about-blog{
@@ -311,6 +313,7 @@ footer{
     height: 40px;
     border-style: none;
     border-radius: 10px;
+    outline: none;
 }
 .email input{
     margin-top: 20px;
@@ -319,6 +322,7 @@ footer{
     height: 40px;
     border-style: none;
     border-radius: 10px;
+    outline: none;
 }
 .text-box textarea{
     margin-top: 20px;
@@ -326,6 +330,7 @@ footer{
     width: 77%;
     border-style: none;
     border-radius: 10px;
+    outline: none;
 }
 .button{
     margin-top: 20px;
